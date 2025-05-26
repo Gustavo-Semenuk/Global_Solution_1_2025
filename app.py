@@ -5,30 +5,27 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 
+st.set_page_config(layout="wide")
 
 # Estrutura Home
+
+
 def home():
     col1, col2 = st.columns(2)
 
     with col1:
-        st.header("Vídeo")
-        st.write("Transforme seus dados em insights poderosos e revolucione a jornada do cliente\
-    Nossa plataforma de inteligência de dados foi criada para ajudar empresas como a sua a personalizar a jornada do cliente de forma única.\
-    Utilizando machine learning, inteligência artificial e modelos avançados de clusterização, extraímos o melhor dos seus dados e de fontes públicas para gerar insights que realmente fazem a diferença.\
-    ")
+        st.image(
+            "D:\Faculdade\Global_Solution_1_2025\imagens\logo_rain_of_changes.png")
 
     with col2:
         st.header("Nossa solução")
-        st.write("Transforme seus dados em insights poderosos e revolucione a jornada do cliente\
-    Nossa plataforma de inteligência de dados foi criada para ajudar empresas como a sua a personalizar a jornada do cliente de forma única.\
-    Utilizando machine learning, inteligência artificial e modelos avançados de clusterização, extraímos o melhor dos seus dados e de fontes públicas para gerar insights que realmente fazem a diferença.\
-    ")
-    st.divider()
-# Fim da estrura da Home
+        st.write("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
+
 
 # Sidebar para navegação
-# st.sidebar.image(
- #   "D:/Faculdade/Hermes.ai/imagens/logo-backgroud.png", use_container_width=80)
+st.sidebar.image(
+    "D:\Faculdade\Global_Solution_1_2025\imagens\logo_rain_of_changes.png", use_container_width=20)
 
 
 with st.sidebar:
