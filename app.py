@@ -145,6 +145,11 @@ def formulario():
         st.write("📊 Dados coletados:")
         st.dataframe(df)
 
+
+def chatai():
+    st.header("Chat AI")
+
+
 # Sidebar para navegação
 st.sidebar.image(
     "D:\Faculdade\Global_Solution_1_2025\imagens\logo_rain_of_changes.png", use_container_width=20)
@@ -153,7 +158,7 @@ st.sidebar.image(
 with st.sidebar:
     pagina_selecionada = option_menu(
         "Menu",  # Título do menu
-        ["Home", "Formulário"],  # Páginas
+        ["Home", "Formulário", "Chat AI"],  # Páginas
         icons=["house", "info"],  # Ícones (opcional)
         menu_icon="cast",  # Ícone do menu
         default_index=0,  # Índice da página inicial
@@ -164,3 +169,5 @@ if pagina_selecionada == "Home":
     home()
 elif pagina_selecionada == "Formulário":
     formulario()
+elif pagina_selecionada == "Chat AI":
+    chatai()
