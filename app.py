@@ -41,8 +41,10 @@ def home():
 
     with col2:
         st.header("Nossa solução")
-        st.write("Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-                 "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.")
+        st.write("Transformamos cada gota de informação em ação. Nossa missão é prever, alertar e proteger você diante de chuvas fortes, alagamentos e eventos extremos que colocam sua segurança em risco. \
+Combinamos inteligência artificial, dados em tempo real, análise de riscos e tecnologia de ponta para antecipar os impactos das chuvas no seu trajeto, na sua rotina e na sua cidade.\
+Não é só sobre prever a chuva — é sobre entender o impacto, sugerir rotas seguras, alertar com antecedência e ajudar você a tomar decisões para se proteger. \
+Somos a chuva que transforma. Cada alerta é uma gota que pode salvar vidas, preservar bens e construir um futuro mais resiliente.")
 
 
 def buscar_endereco(cep):
