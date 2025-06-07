@@ -9,6 +9,8 @@ from geopy.geocoders import Nominatim
 import folium
 from streamlit_folium import st_folium
 import requests
+from ms_chat_ai.controllers.chat_controller import chat_rag_response
+
 # import controllers.form_controller as formulario_controler
 # import models.form_model as formulario
 
@@ -150,6 +152,31 @@ def formulario():
 
 def chatai():
     st.header("Chat AI")
+
+    if "messages" not in st.session_state:
+        st.session_state.messages = []
+
+    # Mostra o histórico do chat
+    for msg in st.session_state.messages:
+        st.chat_message(msg["role"]).markdown(msg["content"])
+
+    # Input do usuário
+    user_input = st.chat_input("Digite sua pergunta")
+
+    if user_input:
+        # Armazena e exibe a mensagem do usuário
+        st.session_state.messages.append(
+            {"role": "user", "content": user_input})
+        st.chat_message("user").markdown(user_input)
+
+        # Obtém resposta do agente RAG
+        with st.spinner("Consultando base de conhecimento..."):
+            response = chat_rag_response(user_input)["response"]
+
+        # Armazena e exibe a resposta do bot
+        st.session_state.messages.append(
+            {"role": "assistant", "content": response})
+        st.chat_message("assistant").markdown(response)
 
 
 # Sidebar para navegação
