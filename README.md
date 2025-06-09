@@ -1,0 +1,2 @@
+# Global_Solution_1_2025
+
