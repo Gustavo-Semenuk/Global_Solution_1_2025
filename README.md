@@ -17,8 +17,6 @@
 
 ![image](https://github.com/user-attachments/assets/66f090c8-c886-406b-b740-77bd438626a7)
 
-https://github.com/Gustavo-Semenuk/Global_Solution_1_2025/blob/main/GS_2TSCOA_Projeto_Rain_of_Changes/GS_2TSCOA_Projeto_Rain_of_Changes.pdf
-
 ##
 
 ### Integrante do grupo:
@@ -28,6 +26,8 @@ https://github.com/Gustavo-Semenuk/Global_Solution_1_2025/blob/main/GS_2TSCOA_Pr
 ### Problema Proposto:
 
 ### Nosso Projeto:
+
+
 
 
 
