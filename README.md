@@ -5,6 +5,8 @@
 ##
 
 ### Contexto do projeto e kick-off:
+https://www.fiap.com.br/graduacao/global-solution/
+
 ![image](https://github.com/user-attachments/assets/0a5fe7be-f275-4452-a39e-b0dcbe3029b5)
 
 ![image](https://github.com/user-attachments/assets/3617b1ee-8798-49ad-8863-61f0d6a8b5ff)
